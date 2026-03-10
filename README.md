@@ -107,6 +107,8 @@ $$
 ├── bansos_jatim.csv                    # Data alokasi & profil kemiskinan
 ├── jawa-timur-simplified-topo.json     # GeoJSON batas wilayah Jawa Timur
 ├── logo.png                            # Logo BPS Kabupaten Bojonegoro
+├── logo_mat.png                        # Logo Matematika ITS
+├── requirement.txt                     # Library yang digunakan                            
 └── .streamlit/
     └── config.toml                     # Konfigurasi tema
 ```
