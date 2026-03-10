@@ -24,6 +24,15 @@ Sistem ini dibuat untuk menjawab satu pertanyaan penting: *bagaimana caranya mem
 
 Solusinya ada pada pendekatan **Bounded Linear Optimization**. Logikanya sederhana: sistem akan menghitung jatah ideal sesuai porsi kemiskinan tiap daerah, lalu diberikan "rem" (batas toleransi). Dengan begitu, perubahan kuota dari tahun sebelumnya tidak akan terlalu ekstrem, dan angkanya tetap aman untuk dieksekusi oleh pengambil kebijakan.
 
+Berikut adalah rincian program bantuan sosial yang dianalisis dan dioptimasi alokasinya dalam sistem ini:
+
+* **PKH Plus** (Program Keluarga Harapan Plus)
+* **ASPD** (Asistensi Sosial Penyandang Disabilitas)
+* **KE** (Bantuan Kemiskinan Ekstrem)
+* **BLT** (Bantuan Langsung Tunai)
+* **Eks PPKS** (Eks Pemerlu Pelayanan Kesejahteraan Sosial)
+* **LKSA** (Lembaga Kesejahteraan Sosial Anak)
+
 ---
 
 ## Fitur Utama
@@ -108,8 +117,8 @@ $$
 
 **1. Clone repositori**
 ```bash
-git clone https://github.com/username/dss-bansos-jatim.git
-cd dss-bansos-jatim
+git clone https://github.com/nafaayoghi/dss-optimasi-bansos-jatim.git
+cd dss-optimasi-bansos-jatim
 ```
 
 **2. Install dependensi**
