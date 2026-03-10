@@ -82,8 +82,8 @@ di mana $E_i$ adalah kuota eksisting dan $\tau$ adalah toleransi yang dipilih pe
 
 $$
 R_i = \begin{cases} 
-L_i & \text{jika } A_i < L_i \\\\ 
-U_i & \text{jika } A_i > U_i \\\\ 
+L_i & \text{jika } A_i < L_i \\ 
+U_i & \text{jika } A_i > U_i \\ 
 A_i & \text{jika } L_i \leq A_i \leq U_i 
 \end{cases}
 $$
